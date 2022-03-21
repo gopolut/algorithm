@@ -21,6 +21,7 @@ def two_sum(arr: List[int], target_sum: int) -> Optional[Tuple[int, int]]:
             previous.add(number)
     return None
 
+
 if __name__ == '__main__':
 
     def read_input() -> Tuple[List[int], int]:
