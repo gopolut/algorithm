@@ -1,3 +1,5 @@
+# B. Застёжка-молния
+
 from typing import List, Tuple
 
 
