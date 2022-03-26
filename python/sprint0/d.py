@@ -1,7 +1,13 @@
 from typing import List, Tuple, Optional
 
+'''D. Две фишки'''
+
+# Нужно вывести два числа —– очки на двух фишках, в сумме дающие k.
+# Если таких пар несколько, то можно вывести любую из них.
+
 # Примерно N^2/2 в худшем случае
 # Примерно N^2/4 в среднем
+
 
 # def two_sum(arr: List[int], target_sum: int) -> Optional[Tuple[int, int]]:
 #     for first in range(0, len(arr)):
