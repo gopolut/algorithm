@@ -8,22 +8,11 @@ def nearest_null(numbers, length):
             counter = 1
         # если ноль есть в массиве nearest
             if 0 in nearest:
-                # while nearest[-counter] - 1 >= counter:
-                #     nearest[idx - counter] = counter
-                #     counter += 1
                 while nearest[-counter] >= counter:
                     nearest[-counter] = counter
                     counter += 1
-                # for i in range(len(nearest)-1, -1, -1):
-                #     if nearest[i] != counter:
-                #         i = counter
-                #     counter += 1
         # если нуля нет в массиве nearest
             else:
-                # while idx - counter >= 0:
-                #     nearest[idx - counter] = counter
-                #     counter += 1
-                # for i in reversed(nearest):
                 for i in range(len(nearest)-1, -1, -1):
                     nearest[i] = counter
                     counter += 1
