@@ -1,3 +1,8 @@
+'''
+A. A+B
+https://contest.yandex.ru/contest/26365/problems/A/
+'''
+
 from typing import Tuple
 
 def get_sum(a: int, b: int) -> int:

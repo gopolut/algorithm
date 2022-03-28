@@ -1,6 +1,8 @@
 from typing import List, Tuple
 
-'''B. Застёжка-молния'''
+'''B. Застёжка-молния
+https://contest.yandex.ru/contest/26365/problems/B/
+'''
 # Выведите 2n чисел из объединённого массива через пробел.
 
 

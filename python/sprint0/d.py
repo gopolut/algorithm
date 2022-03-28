@@ -1,6 +1,8 @@
 from typing import List, Tuple, Optional
 
-'''D. Две фишки'''
+'''D. Две фишки
+https://contest.yandex.ru/contest/26365/problems/D/
+'''
 
 # Нужно вывести два числа —– очки на двух фишках, в сумме дающие k.
 # Если таких пар несколько, то можно вывести любую из них.
